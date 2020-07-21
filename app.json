@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "burgery-app",
+    "slug": "burgery-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/burgeryblack.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "exp.host.exponent",
+      "versionCode": 1,
+    },
+    "ios": {
+      "bundleIdentifier": "exp.host.exponent",
+      "buildNumber": "1.0.0",
+    },
+    "description": ""
+  }
+}
